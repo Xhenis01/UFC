@@ -1,0 +1,2 @@
+SELECT COUNT(DISTINCT FULL_NAME) AS unique_fighters_count
+FROM UFC_INFO
