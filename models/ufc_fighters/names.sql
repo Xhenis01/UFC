@@ -1,0 +1,4 @@
+{{ config(materialized='view') }}
+SELECT FULL_NAME FROM UFC_INFO 
+GROUP BY FULL_NAME
+ORDER by FULL_NAME
