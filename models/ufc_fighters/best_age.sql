@@ -1,0 +1,5 @@
+SELECT AGE, COUNT(*) AS win_count,
+FROM UFC_INFO
+WHERE W = 1
+GROUP BY AGE
+ORDER BY win_count DESC
